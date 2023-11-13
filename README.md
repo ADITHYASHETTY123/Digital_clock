@@ -94,28 +94,26 @@ Function Table:
 ## Verilog Code 
 <details>
    <summary>Detail</summary>
-   "Digital_Clock.v"
-
-   
    module Digital_Clock(
     Clk_1sec,  //Clock with 1 Hz frequency
     reset,     //active high reset
     seconds,
     minutes,
     hours);
-    //What are the Inputs?
+
+//What are the Inputs?
     input Clk_1sec;  
     input reset;
-    //What are the Outputs? 
+//What are the Outputs? 
     output [5:0] seconds;
     output [5:0] minutes;
     output [4:0] hours;
-    //Internal variables.
+//Internal variables.
     reg [5:0] seconds;
     reg [5:0] minutes;
     reg [4:0] hours; 
 
-    //Execute the always blocks when the Clock or reset inputs are 
+   //Execute the always blocks when the Clock or reset inputs are 
     //changing from 0 to 1(positive edge of the signal)
     always @(posedge(Clk_1sec) or posedge(reset))
     begin
@@ -139,7 +137,9 @@ Function Table:
             end     
         end
     end     
+
 endmodule
+
 
 
 "tb_clock.v"
