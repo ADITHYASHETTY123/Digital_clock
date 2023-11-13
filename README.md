@@ -101,7 +101,6 @@ Function Table:
     seconds,
     minutes,
     hours);
-
     //What are the Inputs?
     input Clk_1sec;  
     input reset;
@@ -138,7 +137,6 @@ Function Table:
             end     
         end
     end     
-
 endmodule
 
 
@@ -147,7 +145,6 @@ module tb_clock;
     // Inputs
     reg Clk_1sec;
     reg reset;
-
     // Outputs
     wire [5:0] seconds;
     wire [5:0] minutes;
@@ -160,7 +157,7 @@ module tb_clock;
         .seconds(seconds), 
         .minutes(minutes), 
         .hours(hours)
-    );
+    ); 
     
     //Generating the Clock with `1 Hz frequency
     initial Clk_1sec = 0;
@@ -171,7 +168,6 @@ module tb_clock;
         // Wait 100 ns for global reset to finish
         #100;
         reset = 0;  
-    end
-      
+    end      
 endmodule
 </details>
