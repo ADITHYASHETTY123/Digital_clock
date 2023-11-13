@@ -143,6 +143,8 @@ endmodule
 
 
 "tb_clock.v"
+
+
 module tb_clock;
     // Inputs
     reg Clk_1sec;
