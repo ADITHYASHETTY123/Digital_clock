@@ -94,6 +94,7 @@ Function Table:
 <details>
    <summary>Detail</summary>
    "Digital_Clock.v"
+
    
    module Digital_Clock(
     Clk_1sec,  //Clock with 1 Hz frequency
@@ -101,6 +102,7 @@ Function Table:
     seconds,
     minutes,
     hours);
+    
     //What are the Inputs?
     input Clk_1sec;  
     input reset;
