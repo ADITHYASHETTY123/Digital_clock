@@ -102,19 +102,19 @@ Function Table:
     minutes,
     hours);
 
-//What are the Inputs?
+    //What are the Inputs?
     input Clk_1sec;  
     input reset;
-//What are the Outputs? 
+    //What are the Outputs? 
     output [5:0] seconds;
     output [5:0] minutes;
     output [4:0] hours;
-//Internal variables.
+    //Internal variables.
     reg [5:0] seconds;
     reg [5:0] minutes;
     reg [4:0] hours; 
 
-   //Execute the always blocks when the Clock or reset inputs are 
+    //Execute the always blocks when the Clock or reset inputs are 
     //changing from 0 to 1(positive edge of the signal)
     always @(posedge(Clk_1sec) or posedge(reset))
     begin
@@ -141,12 +141,9 @@ Function Table:
 
 endmodule
 
-Testbench File
+
 "tb_clock.v"
-
-
 module tb_clock;
-
     // Inputs
     reg Clk_1sec;
     reg reset;
