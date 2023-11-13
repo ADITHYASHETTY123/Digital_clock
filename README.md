@@ -86,7 +86,8 @@ Function Table:
 ## Logisim Circuit Diagram
 <details>
    <summary>Detail</summary>
-   Logisim 12hr digital clock with weekday counter
+   Logisim 12hr digital clock with weekday counter:
+   
    ![image](https://github.com/ADITHYASHETTY123/Digital_clock/assets/150215004/19b7e2d8-8c08-48ba-9e6e-b256cd5e13aa)
 
 </details>
