@@ -41,20 +41,29 @@ UNIQUE CONTRIBUTION
 ## Working
 <details>
    <summary>Detail</summary>
-   This project aims to create a functional 12-hour digital clock with an AM/PM indicator 
-using digital components such as JK flip-flops, 7-segment displays, and binary counters.
+   This project aims to create a functional 12-hour digital clock with an AM/PM indicator using digital components such as JK flip-flops, 7-segment displays, and binary counters.
+   
 Key Features:
+
 • 12-Hour Time Format: The clock follows the 12-hour time format commonly used in everyday life.
+
 • AM/PM Indicator: (DECODER) A visible AM/PM toggle indicates whether it is morning or afternoon/evening.
+
 • 7-Segment Displays: Time is displayed using 7-segment LED displays, offering a visual representation of hours and minutes.
+
 • Binary Counters: Binary counters are used to keep track of hours and minutes, promoting an understanding of binary counting.
    
 Inputs:
 • Clk (Clock Signal): Represents the clock signal.
+
 • AM_PM_Toggle: Toggle signal to switch between AM and PM.
+
 • Hour (0-11): Represents the current hour (in a 12-hour format).
+
 • Minute (0-59): Represents the current minute.
+
 • Seconds (0-59):Represents the current seconds.
+
 • 3 : 8 decoder for week day representation.
 
 Outputs:
