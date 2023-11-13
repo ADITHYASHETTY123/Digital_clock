@@ -102,7 +102,6 @@ Function Table:
     seconds,
     minutes,
     hours);
-    
     //What are the Inputs?
     input Clk_1sec;  
     input reset;
