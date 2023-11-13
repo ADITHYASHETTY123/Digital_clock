@@ -146,6 +146,7 @@ endmodule
 
 
 module tb_clock;
+
     // Inputs
     reg Clk_1sec;
     reg reset;
