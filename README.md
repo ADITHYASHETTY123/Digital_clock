@@ -80,4 +80,5 @@ Outputs:
 Function Table:
 ![image](https://github.com/ADITHYASHETTY123/Digital_clock/assets/150215004/7fcb2ec2-af73-4feb-acc5-983ba4de9d01)
 
+
 </details>
