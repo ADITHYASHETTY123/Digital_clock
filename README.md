@@ -53,32 +53,28 @@ UNIQUE CONTRIBUTION
  
    WORKING PRINCIPLE:
    
-      Initialization: The system. initializes variables for hours, minutes, seconds, and the day of the week.
-    Time Retrieval: The current time is obtained, either from system time or user input.
-    Display Time: The obtained time is displayed on the digital clock.
-    AM/PM Check: The system checks whether the current time is in the AM or PM.
-    Weekday Update: The day of the week is updated based on the current time.
+   Initialization: The system. initializes variables for hours, minutes, seconds, and the day of the week.
+   Time Retrieval: The current time is obtained, either from system time or user input.
+   Display Time: The obtained time is displayed on the digital clock.
+   AM/PM Check: The system checks whether the current time is in the AM or PM.
+   Weekday Update: The day of the week is updated based on the current time. 
+   Weekday Display: The updated day of the week is displayed alongside the time.
+   Midnight Check: If the time is midnight (12:00 AM), the weekday counter resets to the first day of the week.
+   Time Increment: Seconds are incremented, and checks are performed for reaching 60 seconds, 60 minutes, and 12 hours.
+   Display Update: The digital clock display is updated with the new time and weekday information.
 
-Weekday Display: The updated day of the week is displayed alongside the time.
+  INPUTS:
+  • Clk (Clock Signal): Represents the clock signal.
 
-Midnight Check: If the time is midnight (12:00 AM), the weekday counter resets to the first day of the week.
+  • AM_PM_Toggle: Toggle signal to switch between AM and PM.
 
-Time Increment: Seconds are incremented, and checks are performed for reaching 60 seconds, 60 minutes, and 12 hours.
+  • Hour (0-11): Represents the current hour(in a 12-hour format).
 
-Display Update: The digital clock display is updated with the new time and weekday information.
+  • Minute (0-59): Represents the current minute.
 
-INPUTS:
-  • Clk (Clock Signal): Represents the        clock signal.
+• Seconds (0-59):Represents the current seconds.
 
-  • AM_PM_Toggle: Toggle signal to switch     between AM and PM.
-
-  • Hour (0-11): Represents the current       hour (in a 12-hour format).
-
-  • Minute (0-59): Represents the current     minute.
-
-• Seconds (0-59):Represents the current     seconds.
-
-• 3 : 8 decoder for week day  representation.
+• 3 : 8 decoder for week day representation.
 
 OUTPUTS:
 • Hour_Display (0-11): The displayed hour on the 7-segment display.
