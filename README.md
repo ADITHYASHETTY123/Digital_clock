@@ -52,7 +52,6 @@ UNIQUE CONTRIBUTION
    <summary>Detail</summary>
  
    WORKING PRINCIPLE:
-
 Initialization: The system initializes variables for hours, minutes, seconds, and the day of the week.
 
 Time Retrieval: The current time is obtained, either from system time or user input.
@@ -72,7 +71,6 @@ Time Increment: Seconds are incremented, and checks are performed for reaching 6
 Display Update: The digital clock display is updated with the new time and weekday information.
 
 INPUTS:
-
 • Clk (Clock Signal): Represents the clock signal.
 
 • AM_PM_Toggle: Toggle signal to switch between AM and PM.
@@ -86,7 +84,6 @@ INPUTS:
 • 3 : 8 decoder for week day representation.
 
 OUTPUTS:
-
 • Hour_Display (0-11): The displayed hour on the 7-segment display.
 
 • Minute_Display (00-59): The displayed minute on the 7-segment display.
