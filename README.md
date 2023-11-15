@@ -104,6 +104,7 @@ FUNCTION TABLE:
 
 Flow chart:
 
+![image](https://github.com/ADITHYASHETTY123/Digital_clock/assets/150215004/1ac0d006-22fb-46d0-a746-281bc81ca8aa)
 
 
 
