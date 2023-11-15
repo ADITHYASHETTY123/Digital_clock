@@ -74,17 +74,25 @@ Display Update: The digital clock display is updated with the new time and weekd
 Inputs:
 
 • Clk (Clock Signal): Represents the clock signal.
+
 • AM_PM_Toggle: Toggle signal to switch between AM and PM.
+
 • Hour (0-11): Represents the current hour (in a 12-hour format).
+
 • Minute (0-59): Represents the current minute.
+
 • Seconds (0-59):Represents the current seconds.
+
 • 3 : 8 decoder for week day representation.
 
 Outputs:
 
 • Hour_Display (0-11): The displayed hour on the 7-segment display.
+
 • Minute_Display (00-59): The displayed minute on the 7-segment display.
+
 • Second_Display ( 00-59): The displayed second on the 7-segment display.
+
 • AM_LED: LED indicator for AM.
 • PM_LED: LED indicator for PM.
 • Weekday Counter
