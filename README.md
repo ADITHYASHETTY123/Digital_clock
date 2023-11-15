@@ -94,9 +94,8 @@ Function Table:
 ## Verilog Code 
 <details>
    <summary>Detail</summary>
-
-
-module Digital_Clock(
+   
+    module Digital_Clock(
     Clk_1sec,  
     reset,    
     seconds,
@@ -104,19 +103,19 @@ module Digital_Clock(
     hours);
 
 
-input Clk_1sec;  
-input reset;
+    input Clk_1sec;  
+    input reset;
 
-output [5:0] seconds;
-output [5:0] minutes;
-output [4:0] hours;
+    output [5:0] seconds;
+    output [5:0] minutes;
+    output [4:0] hours;
 
-reg [5:0] seconds;
-reg [5:0] minutes;
-reg [4:0] hours; 
+    reg [5:0] seconds;
+    reg [5:0] minutes;
+    reg [4:0] hours; 
 
-always @(posedge(Clk_1sec) or posedge(reset))
-begin
+    always @(posedge(Clk_1sec) or posedge(reset))
+    begin
     if(reset == 1'b1) begin
         
         seconds = 0;
@@ -137,9 +136,9 @@ begin
             end
         end     
     end
-end
+    end
 
-endmodule
+    endmodule
 
 
    
@@ -148,7 +147,7 @@ endmodule
 "tb_clock.v"
 
 
-module tb_clock;
+    module tb_clock;
 
     // Inputs
     reg Clk_1sec;
@@ -177,5 +176,5 @@ module tb_clock;
         #100;
         reset = 0;  
     end      
-endmodule
+    endmodule
 </details>
