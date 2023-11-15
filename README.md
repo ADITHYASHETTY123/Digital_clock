@@ -71,17 +71,17 @@ Time Increment: Seconds are incremented, and checks are performed for reaching 6
 Display Update: The digital clock display is updated with the new time and weekday information.
 
 INPUTS:
-• Clk (Clock Signal): Represents the clock signal.
+  • Clk (Clock Signal): Represents the        clock signal.
 
-• AM_PM_Toggle: Toggle signal to switch between AM and PM.
+  • AM_PM_Toggle: Toggle signal to switch     between AM and PM.
 
-• Hour (0-11): Represents the current hour (in a 12-hour format).
+  • Hour (0-11): Represents the current       hour (in a 12-hour format).
 
-• Minute (0-59): Represents the current minute.
+  • Minute (0-59): Represents the current     minute.
 
-• Seconds (0-59):Represents the current seconds.
+• Seconds (0-59):Represents the current     seconds.
 
-• 3 : 8 decoder for week day representation.
+• 3 : 8 decoder for week day  representation.
 
 OUTPUTS:
 • Hour_Display (0-11): The displayed hour on the 7-segment display.
