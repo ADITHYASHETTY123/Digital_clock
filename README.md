@@ -95,48 +95,44 @@ Function Table:
 <details>
    <summary>Detail</summary>
 
-   // Digital_Clock.v
+
 module Digital_Clock(
-    Clk_1sec,  // Clock with 1 Hz frequency
-    reset,     // Active high reset
+    Clk_1sec,  
+    reset,    
     seconds,
     minutes,
     hours);
 
-// Inputs
+
 input Clk_1sec;  
 input reset;
 
-// Outputs
 output [5:0] seconds;
 output [5:0] minutes;
 output [4:0] hours;
 
-// Internal variables
 reg [5:0] seconds;
 reg [5:0] minutes;
 reg [4:0] hours; 
 
-// Execute the always blocks when the Clock or reset inputs are 
-// changing from 0 to 1 (positive edge of the signal)
 always @(posedge(Clk_1sec) or posedge(reset))
 begin
-    if(reset == 1'b1) begin  // Check for active high reset
-        // Reset the time
+    if(reset == 1'b1) begin
+        
         seconds = 0;
         minutes = 0;
         hours = 0;
     end
-    else if(Clk_1sec == 1'b1) begin  // At the beginning of each second
-        seconds = seconds + 1; // Increment sec
-        if(seconds == 60) begin // Check for max value of sec
-            seconds = 0;  // Reset seconds
-            minutes = minutes + 1; // Increment minutes
-            if(minutes == 60) begin // Check for max value of min
-                minutes = 0;  // Reset minutes
-                hours = hours + 1;  // Increment hours
-                if(hours ==  24) begin  // Check for max value of hours
-                    hours = 0; // Reset hours
+    else if(Clk_1sec == 1'b1) begin  
+        seconds = seconds + 1;
+        if(seconds == 60) begin 
+            seconds = 0;  
+            minutes = minutes + 1;
+            if(minutes == 60) begin 
+                minutes = 0; 
+                hours = hours + 1;  
+                if(hours ==  24) begin  
+                    hours = 0; 
                 end 
             end
         end     
