@@ -52,15 +52,12 @@ UNIQUE CONTRIBUTION
    <summary>Detail</summary>
  
    WORKING PRINCIPLE:
-Initialization: The system initializes variables for hours, minutes, seconds, and the day of the week.
-
-Time Retrieval: The current time is obtained, either from system time or user input.
-
-Display Time: The obtained time is displayed on the digital clock.
-
-AM/PM Check: The system checks whether the current time is in the AM or PM.
-
-Weekday Update: The day of the week is updated based on the current time.
+   
+      Initialization: The system. initializes variables for hours, minutes, seconds, and the day of the week.
+    Time Retrieval: The current time is obtained, either from system time or user input.
+    Display Time: The obtained time is displayed on the digital clock.
+    AM/PM Check: The system checks whether the current time is in the AM or PM.
+    Weekday Update: The day of the week is updated based on the current time.
 
 Weekday Display: The updated day of the week is displayed alongside the time.
 
