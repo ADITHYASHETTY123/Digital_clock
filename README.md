@@ -51,7 +51,7 @@ UNIQUE CONTRIBUTION
 <details>
    <summary>Detail</summary>
  
-   Working Principle:
+   WORKING PRINCIPLE:
 
 Initialization: The system initializes variables for hours, minutes, seconds, and the day of the week.
 
@@ -71,7 +71,7 @@ Time Increment: Seconds are incremented, and checks are performed for reaching 6
 
 Display Update: The digital clock display is updated with the new time and weekday information.
 
-Inputs:
+INPUTS:
 
 • Clk (Clock Signal): Represents the clock signal.
 
@@ -85,7 +85,7 @@ Inputs:
 
 • 3 : 8 decoder for week day representation.
 
-Outputs:
+OUTPUTS:
 
 • Hour_Display (0-11): The displayed hour on the 7-segment display.
 
@@ -97,7 +97,7 @@ Outputs:
 • PM_LED: LED indicator for PM.
 • Weekday Counter
 
-Function Table:
+FUNCTION TABLE:
 ![image](https://github.com/ADITHYASHETTY123/Digital_clock/assets/150215004/7fcb2ec2-af73-4feb-acc5-983ba4de9d01)
 
 Flow chart:
