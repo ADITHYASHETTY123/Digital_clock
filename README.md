@@ -95,6 +95,7 @@ Function Table:
 <details>
    <summary>Detail</summary>
    "Digital_Clock.v"
+
    
     module Digital_Clock(
     Clk_1sec,  
