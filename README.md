@@ -145,7 +145,7 @@ Function Table:
 
    
 
-TESTBENCH FILE
+TESTBENCH FILE:
 "tb_clock.v"
 
 
