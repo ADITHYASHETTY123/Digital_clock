@@ -61,8 +61,8 @@ Weekday Update: The day of the week is updated based on the current time.
 Weekday Display: The updated day of the week is displayed alongside the time.
 Midnight Check: If the time is midnight (12:00 AM), the weekday counter resets to the first day of the week.
 Time Increment: Seconds are incremented, and checks are performed for reaching 60 seconds, 60 minutes, and 12 hours.
-
 Display Update: The digital clock display is updated with the new time and weekday information.
+
 Inputs:
 
 • Clk (Clock Signal): Represents the clock signal.
