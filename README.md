@@ -94,7 +94,9 @@ OUTPUTS:
 • Second_Display ( 00-59): The displayed second on the 7-segment display.
 
 • AM_LED: LED indicator for AM.
+
 • PM_LED: LED indicator for PM.
+
 • Weekday Counter
 
 FUNCTION TABLE:
