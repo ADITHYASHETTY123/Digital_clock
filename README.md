@@ -94,6 +94,7 @@ Function Table:
 ## Verilog Code 
 <details>
    <summary>Detail</summary>
+   "Digital_Clock.v"
    
     module Digital_Clock(
     Clk_1sec,  
@@ -143,7 +144,7 @@ Function Table:
 
    
 
-
+TESTBENCH FILE
 "tb_clock.v"
 
 
