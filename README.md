@@ -80,8 +80,8 @@ Function :
    
    > Display Update: The digital clock display is updated with the new time and weekday information.
 
-  INPUTS:
-  -----
+  Inputs:
+  ------
   
    >• Clk (Clock Signal): Represents the clock signal.
 
@@ -95,7 +95,7 @@ Function :
 
    >• 3 : 8 decoder for week day representation.
 
-  OUTPUTS:
+  Outputs:
   ------
 
    >• Hour_Display (0-11): The displayed hour on the 7-segment display.
@@ -110,10 +110,12 @@ Function :
 
    >• Weekday Counter with decoder.
 
-FUNCTION TABLE:
+Function table:
+--------------
 ![image](https://github.com/ADITHYASHETTY123/Digital_clock/assets/150215004/7fcb2ec2-af73-4feb-acc5-983ba4de9d01)
 
 Flow chart:
+----------
 ![image](https://github.com/ADITHYASHETTY123/Digital_clock/assets/150215004/1ac0d006-22fb-46d0-a746-281bc81ca8aa)
 
 </details>
