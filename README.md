@@ -32,13 +32,10 @@ UNIQUE CONTRIBUTION :
 >1."Our digital 12-hour clock boasts a sleek, minimalist design that seamlessly blends with modern decor, making it a unique and stylish addition to any room."
 
 >2."With a user-friendly interface and intuitive button controls, our clock simplifies time and weekday settings, providing a hassle-free experience."
-</details>
 
-## Function
-<details>
-   <summary>Detail</summary>
-   • Digital Logic Circuits: The project delves into the basics of digital logic circuits, offering a practical demonstration of how flip-flops, counters, and logic gates can be used to create a functional
-  timekeeping system.
+
+>• Digital Logic Circuits: The project delves into the basics of digital logic circuits, offering a practical demonstration of how flip-flops, counters, and 
+   logic gates can be used to create a functional timekeeping system.
   
 • Sequential Logic: It introduces the concept of sequential logic, emphasizing the importance of state machines in keeping track of time.
 
