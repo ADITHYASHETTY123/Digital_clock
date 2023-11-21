@@ -24,14 +24,14 @@ A 12-hour digital clock with a weekday counter is a digital timekeeping device t
 
 
 MOTIVATION:
+----------
+> Motivation for this project stems from various factors that include may be of educational purpose , professional development, hands on learning , clock customization, fun and challenge ,learning about the counters and etc.
 
-Motivation for this project stems from various factors that include may be of educational purpose , professional development, hands on learning , clock customization, fun and challenge ,learning about the counters and etc.
+UNIQUE CONTRIBUTION :
+-------------------
+>1."Our digital 12-hour clock boasts a sleek, minimalist design that seamlessly blends with modern decor, making it a unique and stylish addition to any room."
 
-UNIQUE CONTRIBUTION
-
-• "Our digital 12-hour clock boasts a sleek, minimalist design that seamlessly blends with modern decor, making it a unique and stylish addition to any room."
-
-• "With a user-friendly interface and intuitive button controls, our clock simplifies time and weekday settings, providing a hassle-free experience."
+>2."With a user-friendly interface and intuitive button controls, our clock simplifies time and weekday settings, providing a hassle-free experience."
 </details>
 
 ## Function
