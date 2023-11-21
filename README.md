@@ -29,9 +29,9 @@ Motivation:
 
 Unique Contribution :
 --------------------
->1."Our digital 12-hour clock boasts a sleek, minimalist design that seamlessly blends with modern decor, making it a unique and stylish addition to any room."
-[^2]  >2."With a user-friendly interface and intuitive button controls, our clock simplifies time and weekday settings, providing a hassle-free experience."
->3.In market we have seen lot of clocks but our clock consist of week count also. 
+>"Our digital 12-hour clock boasts a sleek, minimalist design that seamlessly blends with modern decor, making it a unique and stylish addition to any room."
+>"With a user-friendly interface and intuitive button controls, our clock simplifies time and weekday settings, providing a hassle-free experience."
+>In market we have seen lot of clocks but our clock consist of week count also. 
 
 Function :
 ---------
