@@ -1,4 +1,4 @@
-# Digital_clock
+# 12 HR DIGITAL CLOCK WITH WEEKDAY COUNTER
 
 
 ## Team Details
