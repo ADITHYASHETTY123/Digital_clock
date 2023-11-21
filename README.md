@@ -5,15 +5,15 @@
 <details>
    <summary>Detail</summary>
    
-   >Semester:3rd Sem B. Tech, CSE
+    Semester:3rd Sem B. Tech, CSE
 
-   >Section :S1
+    Section :S1
 
-   >Member-1:ADITHYA B M , 221CS104 ,adithyabm.221cs104@nitk.edu.in
+    Member-1:ADITHYA B M , 221CS104 ,adithyabm.221cs104@nitk.edu.in
 
-   >Member-2:ARUN M MYAGERI , 221CS113 ,arunmmyageri.221cs113@nitk.edu.in
+    Member-2:ARUN M MYAGERI , 221CS113 ,arunmmyageri.221cs113@nitk.edu.in
 
-   >Member-3:KETHAVATH MUNI , 221CS131 ,kethavathmuni.221cs131@nitk.edu.in
+    Member-3:KETHAVATH MUNI , 221CS131 ,kethavathmuni.221cs131@nitk.edu.in
  </details>
 
 
