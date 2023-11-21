@@ -110,12 +110,13 @@ Function :
 
    >• Weekday Counter with decoder.
 
-Function table:
---------------
+
+  Function table:
+  --------------
 ![image](https://github.com/ADITHYASHETTY123/Digital_clock/assets/150215004/7fcb2ec2-af73-4feb-acc5-983ba4de9d01)
 
-Flow chart:
-----------
+  Flow chart:
+  ----------
 ![image](https://github.com/ADITHYASHETTY123/Digital_clock/assets/150215004/1ac0d006-22fb-46d0-a746-281bc81ca8aa)
 
 </details>
