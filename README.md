@@ -22,8 +22,16 @@
   <summary>Detail</summary>
 A 12-hour digital clock with a weekday counter is a digital timekeeping device that displays time in a 12-hour format, with AM (Ante Meridiem) and PM (Post Meridiem) indications. It also provides the functionality to keep track of the weekday Digital clocks are ubiquitous in our daily lives, and understanding how they work can be a fascinating journey into the world of digital electronics. The "12-Hour Digital Clock with AM/PM Toggle" project is an exploration of digital logic circuits, sequential logic, and the fundamentals of timekeeping. This project is often a stepping stone for students and electronics enthusiasts to learn and apply their knowledge in a hands-on manner.   
 
+</details>
 
-Motivation:
+
+
+
+## Working
+<details>
+   <summary>Detail</summary>
+
+Motivation:   
 ----------
 > Motivation for this project stems from various factors that include may be of educational purpose , professional development, hands on learning , clock customization, fun and challenge ,learning about the counters and etc.
 
@@ -49,15 +57,6 @@ Function :
 >• Display Technology: The use of 7-segment displays illustrates how digital information is visually presented, giving insight into LED technologies and multiplexing displays.
 
 >• Timekeeping Fundamentals: Through this project, learners gain insights into the fundamental concepts of timekeeping, including the 12-hour clock format and the differentiation between AM and PM.
-
-</details>
-
-
-
-
-## Working
-<details>
-   <summary>Detail</summary>
  
    Working Principle:
    -----------------
